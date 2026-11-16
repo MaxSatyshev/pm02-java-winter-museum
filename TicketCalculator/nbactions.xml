@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <packagings><packaging>jar</packaging></packagings>
+        <goals>
+            <goal>compile</goal>
+            <goal>org.codehaus.mojo:exec-maven-plugin:3.5.0:java</goal>
+        </goals>
+        <properties><exec.mainClass>museum.calc.CalcWindow</exec.mainClass></properties>
+    </action>
+</actions>
